@@ -1,13 +1,14 @@
 package com.enviro.assessment.grad001.tumisangmolapo.demo;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootTest
-class DemoApplicationTests {
+@SpringBootApplication
+public class DemoApplicationTests {
+   public DemoApplicationTests() {
+   }
 
-	@Test
-	void contextLoads() {
-	}
-
+   public static void main(String[] args) {
+      SpringApplication.run(DemoApplicationTests.class, args);
+   }
 }
