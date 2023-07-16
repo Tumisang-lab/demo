@@ -49,6 +49,7 @@ public class DemoApplication {
 
 		// Print the HTTP image link
 		System.out.println("HTTP Image Link: " + httpImageLink);
+		
 
 		
 	}

@@ -21,7 +21,6 @@ public class FileParserManager<accountProfileRepository> implements FileParser {
 
     private final AccountProfileRepository accountProfileRepository;
     
-
     public FileParserManager(AccountProfileRepository accountProfileRepository)
     {
         this.accountProfileRepository = accountProfileRepository;
@@ -99,5 +98,9 @@ public class FileParserManager<accountProfileRepository> implements FileParser {
         }
     }
 }
-    
+   */
+
+public class FileParserManager{
+
+}
 
