@@ -20,7 +20,7 @@ import com.enviro.repository.AccountProfileRepository;
 public class FileParserManager<accountProfileRepository> implements FileParser {
 
     private final AccountProfileRepository accountProfileRepository;
-    File csvFile = new File("C:/Users/HP/Desktop/Tumi/csv_file/assessment.csv");
+    
 
     public FileParserManager(AccountProfileRepository accountProfileRepository)
     {

@@ -13,13 +13,13 @@ public class ImageController {
     
     
  @GetMapping(value = "/{name}/{surname}/{imageName}")
-    public FileSystemResource getHttpImageLink(
+    public String getHttpImageLink(
             @PathVariable String name,
             @PathVariable String surname,
             @PathVariable String imageName) {
 
         String filePath = "images/" + imageName;
-        return new FileSystemResource(filePath);
+        return filePath;
     }
 
        
