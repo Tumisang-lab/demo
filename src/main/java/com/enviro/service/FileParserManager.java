@@ -98,9 +98,7 @@ public class FileParserManager<accountProfileRepository> implements FileParser {
         }
     }
 }
-   */
 
-public class FileParserManager{
 
-}
+
 
