@@ -20,6 +20,7 @@ import com.enviro.repository.AccountProfileRepository;
 public class FileParserManager<accountProfileRepository> implements FileParser {
 
     private final AccountProfileRepository accountProfileRepository;
+    File csvFile = new File("C:/Users/HP/Desktop/Tumi/csv_file/assessment.csv");
 
     public FileParserManager(AccountProfileRepository accountProfileRepository)
     {
@@ -36,7 +37,9 @@ public class FileParserManager<accountProfileRepository> implements FileParser {
                 if (fields.length >= 4) {
                     String name = fields[0];
                     String surname = fields[1];
+                    String imageFormat = fields[2];
                     String imageData = fields[3];
+
 
                     // Convert base64 image data to a physical image file
                     File imageFile = convertCSVDataToImage(imageData);
